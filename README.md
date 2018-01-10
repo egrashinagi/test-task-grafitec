@@ -13,8 +13,6 @@ $ npm start
 
 ````
 ### Build
-Build project
-
 ````
 $ npm run build
 

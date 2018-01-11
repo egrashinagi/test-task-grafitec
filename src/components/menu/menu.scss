@@ -2,6 +2,8 @@
   list-style: none;
   text-align: center;
 
+  padding: 0;
+
   @import '__item/menu__item';
 
   @import '__item-link/menu__item-link';

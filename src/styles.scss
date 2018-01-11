@@ -1,18 +1,8 @@
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css');
 @import 'components/head/head';
 @import 'components/menu/menu';
+@import 'components/foot/foot';
 
 body {
   font-family: Roboto;
-}
-
-.foot {
-  background-color: #1F0000;
-  color: white;
-
-  text-align: center;
-  padding: 20px;
-
-  font-size: 24px;
-  font-weight: bolder;
 }

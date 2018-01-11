@@ -1,44 +1,8 @@
 @import '../node_modules/bootstrap/scss/bootstrap';
+@import 'components/head/head';
+@import 'components/menu/menu';
+@import 'components/foot/foot';
 
 body {
   font-family: Roboto;
-}
-
-.head {
-  background-color: #007D6F;
-  color: white;
-
-  clip-path: polygon(0 0, 100% 0, 100% 76%, 0 100%);
-  padding: 20px 100px 100px 20px;
-
-  font-size: 24px;
-  font-weight: bolder;
-  text-transform: uppercase;
-
-  text-align: left;
-}
-
-.menu {
-  list-style: none;
-  text-align: center;
-
-  &__item {
-    padding: 30px 30px;
-  }
-
-  &__item-link {
-    text-decoration:none;
-    color: #545454;
-  }
-}
-
-.foot {
-  background-color: #1F0000;
-  color: white;
-
-  text-align: center;
-  padding: 20px;
-
-  font-size: 24px;
-  font-weight: bolder;
 }

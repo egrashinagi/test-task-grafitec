@@ -1,21 +1,8 @@
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css');
+@import 'components/head/head';
 
 body {
   font-family: Roboto;
-}
-
-.head {
-  background-color: #007D6F;
-  color: white;
-
-  clip-path: polygon(0 0, 100% 0, 100% 76%, 0 100%);
-  padding: 20px 100px 100px 20px;
-
-  font-size: 24px;
-  font-weight: bolder;
-  text-transform: uppercase;
-
-  text-align: left;
 }
 
 .menu {

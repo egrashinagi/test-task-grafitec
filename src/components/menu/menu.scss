@@ -1,0 +1,8 @@
+.menu {
+  list-style: none;
+  text-align: center;
+
+  @import '__item/menu__item';
+
+  @import '__item-link/menu__item-link';
+}
